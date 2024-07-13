@@ -62,7 +62,112 @@
     border: none;
 }
 
-/* Close hero section */
+    /* Close hero section */
+
+    /* start info section  */ 
+
+#info{
+    max-width: 1500px;
+    height: 1130px;
+    background-color: rgba(16, 19, 33, 0.02);
+    margin: 50px auto;
+    border-radius:15px;
+    padding: 90px;
+}
+#info .btn{
+    padding: 14px 18px;
+    color: rgb(13, 19, 33);
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.container{
+    
+}
+#info .container .heading{
+   margin-bottom: 40px;
+   padding: 0 15px;
+}
+#info .container .heading .title{
+    color: rgb(13, 19, 33);
+    font-family: "Work Sans", sans-serif;
+    font-size: 36px;
+    font-weight:600;
+    line-height:55px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#info .container .heading .description{
+    color: rgb(13, 19, 33);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height:24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#info .container .info-one{
+    display: flex;
+    border-radius: 15px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255,255, 0) 100%);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+#info .container .info-two{
+    display: flex;
+    border-radius: 15px;
+    background:  linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+#info .container .info-two .text{
+    padding-left: 30px;
+}
+#info .container .info-three{
+    display: flex;
+    border-radius: 15px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255,255, 0) 100%);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.similar .text{
+    width: 960px;
+    text-align: left;
+}
+.similar .text .title{
+    color: rgb(13, 19, 33);
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight:600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.similar .text .description{
+    color: rgb(13, 19, 33);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height:24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.similar .img{
+    margin: 0 auto;
+}
+.similar .img img{
+    height: 225px;
+}
+
+
+    /* Close info section  */
 
 
 
