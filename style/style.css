@@ -68,7 +68,7 @@
 
 #info{
     max-width: 1500px;
-    height: 1130px;
+    min-height: 1130px;
     background-color: rgba(16, 19, 33, 0.02);
     margin: 50px auto;
     border-radius:15px;
@@ -169,6 +169,46 @@
 
     /* Close info section  */
 
+    /* Start inspiration section  */
+
+#inspiration{
+    max-width: 1680px;
+    margin: 50px auto;
+}
+#inspiration .container .text{
+    margin-bottom: 40px;
+    padding: 0 60px;
+    
+ }
+ #inspiration .container .text .title{
+     color: rgb(13, 19, 33);
+     font-family: "Work Sans", sans-serif;
+     font-size: 34px;
+     font-weight:600;
+     line-height:30px;
+     letter-spacing: 0%;
+     text-align: center;
+     margin-bottom: 15px;
+ }
+ #inspiration .container .text .description{
+     color: rgb(13, 19, 33);
+     font-family: "Work Sans", sans-serif;
+     font-size: 16px;
+     font-weight:400;
+     line-height:24px;
+     letter-spacing: 0%;
+     text-align: center;
+     margin-bottom: 30px;
+
+ }
+ #inspiration .container .video iframe{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding:10px;
+ }
+
+    /* Close inspiration section  */
 
 
 
