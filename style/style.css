@@ -88,9 +88,6 @@
     opacity: 0.7;
     cursor: pointer;
 }
-.container{
-    
-}
 #info .container .heading{
    margin-bottom: 40px;
    padding: 0 15px;
@@ -302,3 +299,85 @@
 }
 
     /* Close current target section  */
+
+    /* Start next target section  */
+
+#contact{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/image/handshake.jpg);
+    height: 250px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 100px 95px;
+}
+#contact .container .text .title{
+    color: rgb(255, 255, 255);
+    font-family:"Work Sans", sans-serif;
+    font-size: 36px;
+    font-weight:600;
+    line-height:30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px 0;
+}
+#contact .container .text .description{
+    color: rgb(255, 255, 255);
+    font-family:"Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#contact .container .textarea{
+    text-align: center;
+}
+#contact .container .textarea input[type="text"]{
+    height: 40px;
+    width: 500px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    margin-right: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+}
+#contact .container .textarea .btn{
+    padding: 21px 35px;
+    color: rgb(13, 19, 33);
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    border-radius:5px;
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+    /* Close contact section  */ 
+
+    /* Start footer section  */
+
+footer{
+    height: 100px;
+    background: rgba(16, 19, 33, 0.03);
+    margin-top: 100px;
+}
+footer .container{
+    width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+footer .container .icon img{
+    padding-left: 24px;
+}
+
+    /* Close footer Section  */
