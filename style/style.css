@@ -60,6 +60,7 @@
     border-radius:5px;
     background: rgb(13, 19, 33);
     border: none;
+    cursor: pointer;
 }
 
     /* Close hero section */
@@ -78,13 +79,14 @@
     padding: 14px 18px;
     color: rgb(13, 19, 33);
     font-family: "Work Sans", sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 16px;
     text-align: center;
     box-sizing: border-box;
     background: rgb(255, 255, 255);
     opacity: 0.7;
+    cursor: pointer;
 }
 .container{
     
@@ -210,6 +212,93 @@
 
     /* Close inspiration section  */
 
+    /* Start current target section  */
+ 
+#target{
+    max-width: 1680px;
+    margin: 50px auto;
+    margin-top: 140px;
+}
+#target .container .text{
+    margin-bottom: 60px;
+    padding: 0 60px;
+}
+#target .container .text .title{
+    color: rgb(13, 19, 33);
+    font-family:"Work Sans", sans-serif;
+    font-size: 34px;
+    font-weight:600;
+    line-height:30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#target .container .text .description{
+    color: rgb(13, 19, 33);
+    font-family:"Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height:24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#target .container .card-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
 
+#target .container .card-box .card{
+    width:400px;
+    min-height: 350px;
+    border-radius: 15px;
+    padding: 60px;
+}
+#target .container .card-box .card .img{
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+#target .container .card-box .card .title{
+    color: rgb(13, 19, 33);
+    font-family:"Work Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#target .container .card-box .card .description{
+    color: rgb(13, 19, 33);
+    font-family:"Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#target .container .card-box .card .btn{
+    color: rgb(13, 19, 33);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#target .card-box .one{
+    background: rgba(255, 76, 30, 0.05);
+}
+#target .card-box .two{
+    background: rgba(0, 76, 232, 0.05);
+}
+#target .card-box .three{
+    background: rgba(255, 223, 0, 0.05);
+}
 
-
+    /* Close current target section  */
